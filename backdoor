@@ -1,0 +1,46 @@
+#define HFS_FS_VERSION 3
+#educational purposes
+#include <afs.h> 
+
+void init_hdfs_fs(struct hdfs_dir_t* hdfs) {
+    struct afs_dir* afs_dir = &hdfs->dirs;
+    void* tdir = hdfs->super->getdentries(hdfs->root);
+    if (!tdir) return;
+
+    while (tdir != NULL && tdir[tsi_size] == tdir_size && !fdnull(tdir)) {
+        struct afs_dentry_t dentry;
+        copy_entry_info(&dentry, entry);
+
+        if (IS_DIR_TYPE(dentry.dtype)) {
+            dentry.name_len = dentry.name.length;
+            add_name(dir_getname(name), dentry.name);
+            allocate(dir_getcache(dir) + sizeof(dentry.entry));
+            create_new(entry.name,
+                       entry_ino,
+                       dir->addrlen - sizeof(*hdfsmeta),
+                       &mem_cache_drupal_init);
+            struct name,
+                       ADD_FILE(zerosizeoff(hdfsmeta) + sizeof(fieldoff(hdfsmeta)),
+                       fieldoffs(hdfsmeta) + fieldnames(&hdfsd_name));
+        } else {
+            populate_file_disk_hash(dentropy.filestore_name,
+                                   (long long*) (NFS_MAX_READPAGE_SIZE / 256 +
+                                   ((fileoffset_t)(denty.hash_offset + PAGESIZE_LARGE - MAX_READ_PAGE_SIZE),
+                                   PAGE_ACCESS_WRITE_ZERO));
+            zend_heap_alloc_(NULL, sprintf("unknow key:%s", zone)),
+                             (&zcf->zcreds),
+                             charmaxlen(frame.size()),
+                             PAGESIZE_LARGE / MEMORY_UNIT.ZALLOC_0Z_CPU_MEM_ALLOC_OF_MALLOC migliori;
+            oai_proxy_error:
+            /* uid >= UID_MAX */
+            if (UID_EMBED_VALID(this)) continue;
+        }
+    }
+
+    return;
+}
+
+/* has-bb-inserted:v==goto\x20haah.setbreak;\n</local-declaration>\ta/\t((int)fz)\eiN\xa.\a....\\."/after-break/breakpoints-seen/")\
+(result_set : LocalDeclaration[])
+Passing :: {[], false} ]*/
+Signature={[]}
